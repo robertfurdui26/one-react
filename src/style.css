@@ -1,13 +1,15 @@
 * {
-    box-sizing: border-boxS;
+    box-sizing: border-box;
 }
 
 .nav {
     display: flex;
     align-items: center;
-    padding: 30px 25px;
+    padding: 30px 15px;
     background-color: #21222A;
     height: 35px;
+    place-items: left;
+
 
 }
 
@@ -16,22 +18,29 @@ body {
     font-family: Inter, sand;
     height: 100vh;
     background-color: #282d35;
+
 }
 
 .nav-logo {
     width: 60px;
+    display: flex;
+    margin: -15px;
+
+
+
 
 }
 
 nav>h3,
 nav>h4 {
-    margin: 0;
+    margin: 15px;
 }
 
 nav>h3 {
     margin-right: auto;
     color: #61DAFB;
     font-size: 23px;
+
 }
 
 nav>h4 {
@@ -48,6 +57,7 @@ nav>img {
 main {
     padding: 75px 27px;
     color: white;
+    align-items: flex-start;
 
 
 
